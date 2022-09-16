@@ -1,3 +1,4 @@
+# Necessário pip install opencv-python
 import cv2
 
 webcam = cv2.VideoCapture(0)
