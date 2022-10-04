@@ -243,6 +243,13 @@ nav ul li a:hover{
     .col-2 .webcam{
         width: 77%;
     }
+    .col-2 .qrcode{
+    width: 100px;
+    height: 100px;
+    margin-top: 5pt;
+    margin-left: 60pt;
+    align-items: auto;
+    }
     .color-box{
         transform: translateX(75px);
     }
