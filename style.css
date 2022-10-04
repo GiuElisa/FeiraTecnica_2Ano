@@ -267,7 +267,7 @@ nav ul li a:hover{
     .col-1 .python{
         width: 200px;
         height: 130px;
-        margin-left: 100pt;
+        align-items: center;
     }
     .col-2 .python{
         width: 200px;
