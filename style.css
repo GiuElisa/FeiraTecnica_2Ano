@@ -243,15 +243,8 @@ nav ul li a:hover{
     .col-2 .webcam{
         width: 77%;
     }
-    .col-2 .qrcode{
-    width: 100px;
-    height: 100px;
-    margin-top: 5pt;
-    margin-left: 60pt;
-    align-items: auto;
-    }
     .color-box{
-        transform: translateX(75px);
+        transform: translateX(60px);
     }
     .col-1{
         flex-basis: 100%;
@@ -288,8 +281,8 @@ nav ul li a:hover{
         border-radius: 30px 30px 30px 30px;
     }
     .col-2 .logo{
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         border-radius: 20px 20px 20px 20px;
     }
     .col-2 .webcam{
@@ -298,11 +291,11 @@ nav ul li a:hover{
         margin-left: 110pt;
     }
     .col-2 .qrcode{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         margin-top: 5pt;
         margin-left: 60pt;
-        align-items: auto;
+        align-items: center;
     }
 
 }
