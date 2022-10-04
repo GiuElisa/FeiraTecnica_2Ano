@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bibliotecas</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <img src="Imagens/logoEscola.png" class="logo1">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="Integrantes.html">Integrantes</a></li>
+                </ul>
+            </nav>
+            <img src="Imagens/cabecalhoTec.png" class="logo2">
+            <img src="Imagens/menu.png" class="menu" onclick="togglemenu()"> 
+        </div>
+        <br>
+        <p align="center"><b>Feira Técnica 2022</b></p>
+        <div class="row">
+            <div class="col-1">
+                <h1><b>Bibliotecas utilizadas no Projeto</b></h1>
+                <br>
+                <p align="justify">Ao longo do desenvolvimento do nosso projeto, utilizamos bibliotecas para nos auxiliar. Abaixo teremos uma breve explicação
+                    de cada biblioteca e sua respectiva função no projeto.
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="Imagens/python.png" class="python">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h3><u>OpenCV</u></h3>
+                <br>
+                <p align="justify"><b>OpenCV</b> (Open Source Computer Vision) é uma biblioteca de programação, de código aberto e inicialmente 
+                    desenvolvida pela Intel com o objetivo de tornar a visão computacional mais acessível a desenvolvedores 
+                    e hobistas. Atualmente possui mais de 500 funções, pode ser utilizada em diversas linguagens de programação 
+                    (C++, Python, Ruby, Java…) e é usada para diversos tipos de análise em imagens e vídeos, como  detecção, 
+                    tracking e <b>reconhecimento facial</b>, edição de fotos e vídeos, detecção e análise de textos, etc.
+                </p>
+            </div>
+            <br>
+            <br>
+            <div class="col-1">
+                <h3><u>Selenium</u></h3>
+                <br>
+                <p align="justify"><b>Selenium</b> é um conjunto de ferramentas de código aberto multiplataforma, usado para testar 
+                    aplicações web pelo browser de forma <b>automatizada</b>.Ele executa testes de funcionalidades da aplicação web 
+                    e testes de compatibilidade entre browser e plataformas diferentes. O Selenium suporta diversas linguagens 
+                    de programação, como por exemplo C#, Java e Python, e vários navegadores web como o Chrome e o Firefox.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h3><u>Timer</u></h3>
+                <br> 
+                <p align="justify">
+                    O <b>Timer</b> é uma ferramenta, que com um código Python, podemos criar uma cronômetro para monitorar
+                    o tempo que nosso programa é executado, e suas ações.
+                </p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "120px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

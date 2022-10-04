@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Feira Técnica</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <img src="Imagens/logoEscola.png" class="logo1">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="Bibliotecas.html">Bibliotecas</a></li>
+                    <li><a href="Integrantes.html">Integrantes</a></li>
+                </ul>
+            </nav>
+            <img src="Imagens/cabecalhoTec.png" class="logo2">
+            <img src="Imagens/menu.png" class="menu" onclick="togglemenu()">
+        </div>
+        <br>
+        <p align="center"><b>Feira Técnica 2022</b></p>
+        <div class="row">
+            <div class="col-1">
+                <h2 align="center"><b><u>Quem somos</u></b></h2>
+                <br>
+                <p align="justify">
+                Somos alunos do 2º ano do curso Técnico de Informática, dos Colégios Univap - Unidade Centro.
+                Estamos sempre em busca de novos conhecimentos e oportunidades que nos possam abrir portas,
+                afim de que possamos estar preparados para o mercado de trabalho. Expandimos nossa capacidade 
+                lógica e criativa para resolução de problemas com a realização de projetos, como esse que vamos
+                apresentar.
+                </p>
+                <br>
+                <h2 align="center"><b><u>Nosso objetivo</u></b></h2>
+                <br>
+                <p align="justify">
+                Demonstrar nossa capacidade, e adquirir experiência por meio de apresentação de projetos, buscando oportunidades
+                para ingressarmos no mercado de trabalho.
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="Imagens/equipe.jpg" class="equipe">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-1">
+                <h1 align="center"><b>Nosso Projeto - GRG_PHOTO</b></h1>
+                <br>
+                <p align="justify">
+                Nosso grupo, com o auxílio dos professores do Técnico em Informática, criamos um projeto de 
+                <u><b>Reconhecimento Facial por Webcam</b></u>, utilizando bibliotecas da linguagem <b>Python</b>,
+                como a <b>OpenCV</b>. Com ela, nós utilizamos o código para abrir a webcam, e tirar uma foto
+                quando detectar um sorriso do usuário e, em seguida, também por meio de códigos, a 
+                foto é enviada e postada no nosso grupo do <b>Facebook</b>, que está conectada com nosso perfil do 
+                <b>Instragram</b>, criados especificamente para esse projeto. O tempo de todas as ações realizadas 
+                pela biblioteca <b>Selenium</b> é cronometrado pelo <b>Timer</b>.
+                </p>
+                <br>
+                <img src="Imagens/python.png" class="python">
+            </div>
+            <div class="col-2">
+                <img src="Imagens/GRGPhoto.png" class="logo">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-2">
+                <img src="Imagens/webcam.png" class="webcam">
+                <div class="color-box"></div>
+            </div>
+            <div class="col-1">
+                <h3>Webcam utilizada no Projeto:</h3>
+                <br>
+                <h4 align="center">Lehmox Webcam</h4>
+                <br>
+                <ul align="left">
+                    <li>Webcam HD 720p;</li>
+                    <li>Resolução: 1280x720;</li>
+                    <li>Formato do Vídeo: RGB 24 bits;</li>
+                    <li>Alcance do Foco: 3 cm;</li>
+                </ul>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h2>Leia o QR Code e nos sigas nas redes sociais!</h2>
+                <img class="qrcode" src="Imagens/qrcode.png">
+            </div>
+        </div>
+
+        <div class="social-links">
+            <h2>Ou acesse os links!</h2>
+               <a href="https://www.instagram.com/univap.grgphoto/" class="btn btn-link" role="button"> <img class="icon" src="Imagens/instagram.png"></a>
+               <a href="https://www.facebook.com/groups/1233452427388181" class="btn btn-link" role="button"><img class="icon" src="Imagens/facebook.png"></a>
+            <h6>Ícones por Pixel perfect - Flaticon</h6>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "120px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
