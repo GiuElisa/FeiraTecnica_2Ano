@@ -244,7 +244,7 @@ nav ul li a:hover{
         width: 77%;
     }
     .color-box{
-        transform: translateX(60px);
+        transform: translateX(85px);
     }
     .col-1{
         flex-basis: 100%;
@@ -291,8 +291,8 @@ nav ul li a:hover{
         margin-left: 110pt;
     }
     .col-2 .qrcode{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin-top: 5pt;
         margin-left: 60pt;
         align-items: center;
